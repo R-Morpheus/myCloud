@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className='navbar'>
             <div className="container">
                 <img src={Logo} alt="logo" className="navbar__logo"/>
-                <div className="navbar__header"> MERN CLOUD</div>
+                <div className="navbar__header">MyCLOUD</div>
                 {!isAuth && <div className="navbar__login"><NavLink to="/login">Войти</NavLink></div>}
                 {!isAuth && <div className="navbar__registration"><NavLink to="/registration">Регистрация</NavLink></div>}
                 {isAuth && <div className="navbar__login" onClick={() => dispatch(logout()) }>Выйти</div>}
