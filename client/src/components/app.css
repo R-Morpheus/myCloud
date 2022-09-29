@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #61DBFB;
+}
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: #2f374f;
+}
+#root {
+  width: 100%;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrap {
+  width: 1140px;
+  display: flex;
+  flex-direction: column;
+}
+/*# sourceMappingURL=app.css.map */
